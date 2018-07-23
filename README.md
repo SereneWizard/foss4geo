@@ -13,7 +13,7 @@ Shows how to generate point features from the co-ordinates listed in the .csv fi
 [buffer_multiline.ipynb](https://github.com/SereneWizard/foss4geo/blob/master/Buffer_multiline.ipynb)
 Shows how to buffer line feature. The output is a polygon fetaure. The buffer distance has to be provided in the unit of measurement of the line feature file. 
 
-[transform_shapefile.ipynb]()
+[transform_shapefile.ipynb](https://github.com/SereneWizard/foss4geo/blob/master/transform_shapefile.ipynb)
 Shows how to use `pyproj` library to transform shapefile from one co-ordinate system to another. 
 
 [shapefile_to_postgis.ipynb](https://github.com/SereneWizard/foss4geo/blob/master/shapefile_to_postgis.ipynb)
