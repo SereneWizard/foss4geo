@@ -16,7 +16,7 @@ Shows how to buffer line feature. The output is a polygon fetaure. The buffer di
 [transform_shapefile.ipynb]()
 Shows how to use `pyproj` library to transform shapefile from one co-ordinate system to another. 
 
-[shapefile_to_postgis.ipynb]()
+[shapefile_to_postgis.ipynb](https://github.com/SereneWizard/foss4geo/blob/master/shapefile_to_postgis.ipynb)
 Shows how to convert a shapefile to PostGIS table. This code uses `fiona` library for lazy evaluation of the shapefile features, and `psycopg2` for uploading each feature as Postgres table records. Lazy evaluation is useful in the sense that we don't have to upload the whole file in the memory in the beginning, and therefore, is advantageous for working with large shapefiles. 
 The required python libraries are `fiona`, `shapely`, and `psycopg2`. 
 <ol>
