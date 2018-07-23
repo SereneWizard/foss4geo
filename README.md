@@ -18,5 +18,7 @@ Shows how to use `pyproj` library to transform shapefile from one co-ordinate sy
 
 [shapefile_to_postgis.ipynb](https://github.com/SereneWizard/foss4geo/blob/master/shapefile_to_postgis.ipynb)
 Shows how to convert a shapefile to PostGIS table. This code uses `fiona` library for lazy evaluation of the shapefile features, and `psycopg2` for uploading each feature as Postgres table records. Lazy evaluation is useful in the sense that we don't have to upload the whole file in the memory in the beginning, and therefore, is advantageous for working with large shapefiles. 
-The required python libraries are `fiona`, `shapely`, and `psycopg2`. 
+
+[kmlreader.py]()
+It gets the bounds of the kml file. The kml file may have one or more features. 
 <ol>
